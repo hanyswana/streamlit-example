@@ -1,6 +1,7 @@
-# Welcome to Streamlit!
+# Welcome to streamlit
 
-Edit `/streamlit_app.py` to customize this app to your heart's desire. :heart:
+This is the app you get when you run `streamlit hello`, extracted as its own app.
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+Edit [Hello.py](./Hello.py) to customize this app to your heart's desire. ❤️
+
+Check it out on [Streamlit Community Cloud](https://st-hello-app.streamlit.app/)
