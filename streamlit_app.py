@@ -127,7 +127,7 @@ def main():
             display_label = predictions_value
     
         # Display label
-        st.markdown(f'<span class="value">Types: {display_label}</span>', unsafe_allow_html=True)
+        st.markdown(f'<span class="label">Types: {display_label}</span><br>{display_value}</p>', unsafe_allow_html=True)
         
         # # Add condition for prediction value
         # if predictions_value > 25:
