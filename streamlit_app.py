@@ -91,10 +91,10 @@ def predict_with_model(model, input_data):
     
 def main():
     model_paths_with_labels = [
-        ('m1', 'reva-paracetamol.csv_best_model_2024-04-25_11-12-06'),
-        ('m2', 'reva-paracetamol.csv_best_model_2024-04-25_15-27-03'),
-        ('m3', 'reva-paracetamol.csv_best_model_2024-04-25_15-33-09'),
-        ('m4', 'reva-paracetamol.csv_best_model_2024-04-25_18-19-58')
+        # ('m1', 'reva-paracetamol.csv_best_model_2024-04-25_11-12-06'),
+        # ('m2', 'reva-paracetamol.csv_best_model_2024-04-25_15-27-03'),
+        ('m3', 'reva-paracetamol.csv_best_model_2024-04-25_15-33-09')
+        # ('m4', 'reva-paracetamol.csv_best_model_2024-04-25_18-19-58')
     ]    
     
     # Get data from server (simulated here)
