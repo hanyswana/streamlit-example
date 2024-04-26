@@ -93,7 +93,7 @@ def main():
     model_paths_with_labels = [
         # ('m1', 'reva-paracetamol.csv_best_model_2024-04-25_11-12-06'),
         # ('m2', 'reva-paracetamol.csv_best_model_2024-04-25_15-27-03'),
-        ('m3', 'reva-paracetamol.csv_best_model_2024-04-25_15-33-09')
+        ('m3', 'reva-paracetamol.csv_best_model_2024-04-25_15-33-09'),
         # ('m4', 'reva-paracetamol.csv_best_model_2024-04-25_18-19-58'),
         ('m5', 'reva-paracetamol.csv_best_model_2024-04-26_16-32-45-Acc-88'),
         ('m6', 'reva-paracetamol.csv_best_model_2024-04-26_16-53-29')
