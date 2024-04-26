@@ -113,8 +113,8 @@ def main():
     
         st.markdown("""
         <style>
-        .label {font-size: 16px; font-weight: bold; color: black;}
-        .value {font-size: 60px; font-weight: bold; color: blue;}
+        .label {font-size: 20px; font-weight: bold; color: black;}
+        .value {font-size: 40px; font-weight: bold; color: blue;}
         .high-value {font-size: 60px; font-weight: bold; color: red;}
         </style> """, unsafe_allow_html=True)
 
@@ -125,9 +125,12 @@ def main():
             display_label = 'Optizorb'
         else:
             display_label = predictions_value
+
+            # Format the display value with consistent styling
+        display_value = f'<span class="value">{display_label}</span>'
     
         # Display label
-        st.markdown(f'<span class="label">Types: {display_label}</span><br>{display_value}</p>', unsafe_allow_html=True)
+        st.markdown(f'<span class="label">Types :</span><br>{display_value}</p>', unsafe_allow_html=True)
         
         # # Add condition for prediction value
         # if predictions_value > 25:
