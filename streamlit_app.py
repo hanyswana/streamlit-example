@@ -4,6 +4,13 @@ import requests
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import numpy as np
+from datetime import datetime
+import pytz
+
+utc_now = datetime.now(pytz.utc)
+singapore_time = utc_now.astimezone(pytz.timezone('Asia/Singapore'))
+formatted_time = singapore_time.strftime("%Y-%m-%d %H:%M:%S")
+st.markdown(f"Time: {formatted_time}")
 
 # st.markdown("""
 # <style>
