@@ -120,14 +120,14 @@ def main():
 
                 # Add condition for label
         if predictions_value == 0:
-            display_label = 'regular'
+            display_label = 'Regular'
         elif predictions_value == 1:
-            display_label = 'optizorb'
+            display_label = 'Optizorb'
         else:
             display_label = predictions_value
     
         # Display label
-        st.markdown(f'<span class="label">Classification ({display_label}):</span>', unsafe_allow_html=True)
+        st.markdown(f'<span class="label">Types: {display_label}:</span>', unsafe_allow_html=True)
         
         # # Add condition for prediction value
         # if predictions_value > 25:
@@ -140,7 +140,7 @@ def main():
 
     # Plotting
     plt.figure(figsize=(10, 4))
-    plt.plot(wavelengths, absorbance_data.iloc[0], marker='o', linestyle='-', color='b')
+    plt.plot(wavelengths, absorbance_df.iloc[0], marker='o', linestyle='-', color='b')
     plt.xlabel('Wavelength (nm)', fontweight='bold', fontsize=14)
     plt.ylabel('Absorbance', fontweight='bold', fontsize=14)
     plt.xticks(rotation='vertical', fontweight='bold', fontsize=12)
