@@ -119,9 +119,9 @@ def main():
         </style> """, unsafe_allow_html=True)
 
                 # Add condition for label
-        if predictions_value == 0:
+        if predictions_value < 1:
             display_label = 'Regular'
-        elif predictions_value == 1:
+        elif predictions_value >= 1:
             display_label = 'Optizorb'
         else:
             display_label = predictions_value
