@@ -130,7 +130,7 @@ def main():
         display_value = f'<span class="value">{display_label}</span>'
     
         # Display label
-        st.markdown(f'<span class="label">Types :</span><br>{display_value}</p>', unsafe_allow_html=True)
+        st.markdown(f'<span class="label">Paracetamol type :</span><br>{display_value}</p>', unsafe_allow_html=True)
         
         # # Add condition for prediction value
         # if predictions_value > 25:
